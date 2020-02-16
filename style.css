@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap");
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: #373739;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.changecolor1 {
+  color: #373739;
+}
+
+.navbar {
+  height: 130px !important;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid #E6E5CD;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  padding: 0 !important;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  background-color: #373739;
+  opacity: 0.7;
+}
+
+.navbar-toggler {
+  color: #67C3B5;
+}
+
+.navbar-brand {
+  padding: 0 !important;
+}
+
+.changecolor {
+  background-color: whitesmoke !important;
+  opacity: 1;
+}
+
+.navbar-collapse {
+  background-color: whitesmoke;
+  height: 100vh;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  margin: 0px !important;
+  padding: 20px !important;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: none !important;
+}
+
+.nav-item {
+  padding: 50px;
+  font-size: 30px;
+  color: red !important;
+}
+
+.nav-item a {
+  color: #373739;
+}
+
+a {
+  color: #E6E5CD;
+}
+
+.blogContainer {
+  padding-top: 40px;
+}
+
+.logoNav {
+  height: 150px;
+  width: 200px;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  border: 2px solid #E6E5CD;
+  background-color: whitesmoke;
+  color: #373739;
+  border-radius: 1%;
+}
+
+.trista {
+  width: 297px !important;
+  height: 250px !important;
+  border-radius: 1%;
+}
+
+.card__body {
+  padding: 12px;
+}
+
+.btn {
+  border: 1px solid #67C3B5;
+  padding: 5px;
+  width: 70%;
+  background-color: #67C3B5;
+  color: white;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  width: 90%;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  color: white;
+}
+
+.btn:focus {
+  width: 90%;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  color: white;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  opacity: 0.6;
+}
+
+.masthead {
+  height: 700px;
+  background: url("./img/burj.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  padding-top: 30px;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 10rem;
+}
+
+.masthead p {
+  color: whitesmoke;
+}
+
+.item1 {
+  opacity: 0.5;
+}
+
+hr {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(91, 141, 140, 0.75)), to(rgba(91, 141, 140, 0)));
+  background-image: linear-gradient(to right, rgba(91, 141, 140, 0.75), rgba(91, 141, 140, 0));
+  height: 1px;
+}
+
+.card__body {
+  padding: 1.5rem !important;
+}
+
+.card__actions {
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.blogContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item {
+  margin: 15px;
+}
+
+.footer-section {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding: 35px;
+}
+
+.footer-section ul {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+}
+
+.item1 i {
+  padding: 7px;
+  font-size: 30px;
+  color: #67C3B5;
+}
+/*# sourceMappingURL=style.css.map */

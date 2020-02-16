@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+$primary-color:#373739 ;
+$secondary-color:#E6E5CD ;
+$misc-color: #67C3B5;
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300&display=swap');
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color:$primary-color;
+  height:100%;
+  
+
+  font-family: 'Raleway', sans-serif;
+
+
+  
+}
+.changecolor1{
+  color:$primary-color;
+}
+.navbar {
+
+  height: 130px !important;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid $secondary-color;
+  align-items: center;
+  position:fixed;
+  padding:0 !important;
+  transition: 500ms ease;
+  background-color:$primary-color;
+  opacity:0.7;
+
+  
+
+
+ 
+
+
+}
+
+.navbar-toggler {
+  color:$misc-color;
+}
+
+.navbar-brand {
+  padding:0 !important;
+
+}
+
+.changecolor {
+
+  background-color:whitesmoke!important;
+  opacity:1;
+}
+
+.navbar-collapse {
+  background-color:whitesmoke;
+  height:100vh;
+  transition: 500ms ease;
+  margin:0px !important;
+  padding:20px !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: none !important;
+
+ 
+}
+
+.nav-item {
+  padding:50px;
+  font-size:30px;
+  color:red !important;
+
+  a {
+    color: $primary-color;
+  }
+  
+}
+
+
+
+  a {
+    color: $secondary-color;
+  }
+
+.blogContainer {
+  padding-top:40px;
+}
+
+
+.logoNav {
+  height: 150px;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+
+
+.card {
+  width: 300px;
+  border:2px solid $secondary-color;
+  background-color:whitesmoke;
+  color:$primary-color;
+  border-radius:1%;
+
+}
+
+.trista{
+  width:297px !important;
+  height:250px !important;
+  border-radius:1%;
+}
+
+.card__body {
+  padding:12px;
+
+}
+
+.btn {
+  border: 1px solid $misc-color;
+  padding:5px;
+  
+  width:70%;
+  background-color: $misc-color;
+  color:white;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  width:90%;
+  transition: 0.2s ease;
+  color:white;
+}
+
+.btn:focus {
+  width:90%;
+  transition: 0.2s ease;
+  color:white;
+}
+
+.scrollDown {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  color:white;
+  opacity:0.6;
+}
+
+.masthead {
+  height:700px;
+  background:url("./img/burj.jpg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content: baseline;
+  align-items: left;
+  flex-direction:column;
+  padding:20px;
+  padding-top:30px;
+  font-family: 'Comfortaa', cursive;
+  padding-top:10rem;
+
+  p {
+    color:whitesmoke;
+  }
+}
+
+.item1 {
+  opacity:0.5;
+}
+
+
+hr {
+  background-image:linear-gradient(to right, rgba(91, 141, 140, 0.75), rgba(91, 141, 140, 0));
+  height:1px;
+}
+
+.card__body {
+
+
+  padding:1.5rem !important;
+}
+
+.card__actions {
+  padding:1rem;
+  margin-top:0;
+}
+
+
+
+.blogContainer {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+
+.item {
+  margin:15px;
+}
+
+.footer-section {
+  color:white;
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+  padding:35px;
+
+  ul {
+    text-emphasis: none;
+  }
+}
+
+.item1 {
+  i {
+    padding:7px;
+    font-size:30px;
+    color:$misc-color;
+  }
+}
