@@ -33,9 +33,10 @@ body, html {
 
   transition: 500ms ease;
   background-color:$primary-color;
-  opacity:0.7;
-  padding:0;
+  background-color: rgba(55, 55, 57, 0.7);
+  
   margin:0;
+  
   
 
   
@@ -46,7 +47,19 @@ body, html {
 
 }
 
+.fa-chevron-right {
+  position:absolute;
+  top:65px;
+}
+.color {
+  background-color: $misc-color !important;
+  color: white !important;
+  opacity:none !important;
+}
 
+.navbar-brand {
+  padding:0 !important;
+}
 
 .navbar-toggler {
   color:$misc-color;
@@ -60,7 +73,8 @@ body, html {
 }
 
 .navbar-collapse {
-  background-color:$misc-color;
+  background-color:whitesmoke;
+  
 
   transition: 500ms ease;
 
@@ -68,48 +82,48 @@ body, html {
   text-align: center;
 
   opacity: none !important;
+color:$misc-color;
 
  border-radius:5%;
- border: 2px solid white;
+ border: 4px solid $misc-color
 }
 
 .nav-item {
   padding:12px;
   font-size:30px;
-  color:white !important;
+
 
   a {
-    color: white;
+    color: $misc-color;
   }
   
 }
 
-@media (max-width: 768px) {
-  .navbar-collapse {
-      position: absolute;
-      top: 154px;
-      left: 0;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      width: 100%;
-  }
-  .navbar-collapse.collapsing {
-     
-      -webkit-transition: left 0.3s ease;
-      -o-transition: left 0.3s ease;
-      -moz-transition: left 0.3s ease;
-      transition: left 0.3s ease;
-      left: -100%;
-  }
-  .navbar-collapse.show {
-      left: 0;
-      -webkit-transition: left 0.3s ease-in;
-      -o-transition: left 0.3s ease-in;
-      -moz-transition: left 0.3s ease-in;
-      transition: left 0.3s ease-in;
-  }
+.navbar-collapse {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  width: 100%;
 }
+.navbar-collapse.collapsing {
+  height: auto;
+  -webkit-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+  left: -100%;
+}
+.navbar-collapse.show {
+  left: 0;
+  -webkit-transition: left 0.3s ease-in;
+  -o-transition: left 0.3s ease-in;
+  -moz-transition: left 0.3s ease-in;
+  transition: left 0.3s ease-in;
+}
+
 
   a {
     color: $secondary-color;
@@ -124,15 +138,19 @@ body, html {
   height: 150px;
   width: 200px;
   text-align: center;
+  padding:0;
 }
 
+.navbar-brand {
+  margin-left: -36px;
+}
 
 
 
 
 .card {
   width: 300px;
-  border:2px solid $secondary-color;
+  border:4px solid $misc-color;
   background-color:whitesmoke;
   color:$primary-color;
   border-radius:1%;
@@ -195,11 +213,71 @@ body, html {
   padding-top:30px;
   font-family: 'Comfortaa', cursive;
   padding-top:10rem;
+  background-attachment: fixed;
+  
 
   p {
     color:whitesmoke;
   }
 }
+
+.container2 {
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.btn1 {
+  border: 1px solid $misc-color;
+  padding:7px;
+  
+  width:70%;
+  background-color: transparent;
+  color:white;
+  transition: 0.2s ease;
+}
+
+.btn1:focus {
+  border: 1px solid $misc-color;
+  padding:7px;
+  
+  width:100%;
+  background-color: $misc-color;
+  color:white;
+  transition: 0.2s ease;
+}
+
+.container3 {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.item3 {
+  width:300px;
+  height:175px;
+
+  margin:15px;
+  
+    position: relative;
+    text-align: center;
+    color: white;
+  
+}
+
+.img-fluid {
+  opacity:0.5;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  opacity:0.7;
+}
+
+
 
 .item1 {
   opacity:0.8;
@@ -253,4 +331,15 @@ hr {
     font-size:30px;
     color:$misc-color;
   }
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color:white;
+  opacity: 0.5;
+  flex-direction:column;
+  padding-bottom:0;
 }

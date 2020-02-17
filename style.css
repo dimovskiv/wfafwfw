@@ -25,9 +25,23 @@ body, html {
   -webkit-transition: 500ms ease;
   transition: 500ms ease;
   background-color: #373739;
-  opacity: 0.7;
-  padding: 0;
+  background-color: rgba(55, 55, 57, 0.7);
   margin: 0;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  top: 65px;
+}
+
+.color {
+  background-color: #67C3B5 !important;
+  color: white !important;
+  opacity: none !important;
+}
+
+.navbar-brand {
+  padding: 0 !important;
 }
 
 .navbar-toggler {
@@ -40,45 +54,46 @@ body, html {
 }
 
 .navbar-collapse {
-  background-color: #67C3B5;
+  background-color: whitesmoke;
   -webkit-transition: 500ms ease;
   transition: 500ms ease;
   text-align: center;
   opacity: none !important;
+  color: #67C3B5;
   border-radius: 5%;
-  border: 2px solid white;
+  border: 4px solid #67C3B5;
 }
 
 .nav-item {
   padding: 12px;
   font-size: 30px;
-  color: white !important;
 }
 
 .nav-item a {
-  color: white;
+  color: #67C3B5;
 }
 
-@media (max-width: 768px) {
-  .navbar-collapse {
-    position: absolute;
-    top: 154px;
-    left: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-  }
-  .navbar-collapse.collapsing {
-    -webkit-transition: left 0.3s ease;
-    transition: left 0.3s ease;
-    left: -100%;
-  }
-  .navbar-collapse.show {
-    left: 0;
-    -webkit-transition: left 0.3s ease-in;
-    transition: left 0.3s ease-in;
-  }
+.navbar-collapse {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.navbar-collapse.collapsing {
+  height: auto;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+  left: -100%;
+}
+
+.navbar-collapse.show {
+  left: 0;
+  -webkit-transition: left 0.3s ease-in;
+  transition: left 0.3s ease-in;
 }
 
 a {
@@ -93,11 +108,16 @@ a {
   height: 150px;
   width: 200px;
   text-align: center;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-left: -36px;
 }
 
 .card {
   width: 300px;
-  border: 2px solid #E6E5CD;
+  border: 4px solid #67C3B5;
   background-color: whitesmoke;
   color: #373739;
   border-radius: 1%;
@@ -169,10 +189,72 @@ a {
   padding-top: 30px;
   font-family: 'Comfortaa', cursive;
   padding-top: 10rem;
+  background-attachment: fixed;
 }
 
 .masthead p {
   color: whitesmoke;
+}
+
+.container2 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn1 {
+  border: 1px solid #67C3B5;
+  padding: 7px;
+  width: 70%;
+  background-color: transparent;
+  color: white;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.btn1:focus {
+  border: 1px solid #67C3B5;
+  padding: 7px;
+  width: 100%;
+  background-color: #67C3B5;
+  color: white;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item3 {
+  width: 300px;
+  height: 175px;
+  margin: 15px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-fluid {
+  opacity: 0.5;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 22px;
+  opacity: 0.7;
 }
 
 .item1 {
@@ -233,5 +315,25 @@ hr {
   padding: 7px;
   font-size: 30px;
   color: #67C3B5;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  color: white;
+  opacity: 0.5;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
