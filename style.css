@@ -361,6 +361,19 @@ hr {
   padding: 35px;
 }
 
+.articleText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  opacity: 0.8;
+  padding: 35px;
+}
+
 .item55 i {
   padding: 7px;
   font-size: 30px;
