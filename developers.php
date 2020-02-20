@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <title>Just-off-plan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container-fluid">
+    <a class="navbar-brand" style="opacity:1;" href="blog.html"><img src="./logo/1.png" class="logoNav"></a>
+    <button id="changeToogle" class="navbar-toggler collapsed mr-4" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-chevron-right fa-2x" ></i>
+    </button>
+  
+    <div class="collapse navbar-collapse "  id="navbarTogglerDemo02">
+      <ul class="navbar-nav  mt-2 mt-lg-0 ml-auto" >
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ALL PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown" href="#">DEVELOPERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">DEVELOPMENTS</a>
+        </li>
+      </ul>
+
+    </div>
+    </div>
+  </nav>
+
+
+ 
+<header class="mastheadDevs">
+
+
+<div class="centerDevs">
+  DEVELOPERS
+</div>
+  <img class="img-fluid imgDevs" src="./img/dubaiDevs.jpg">
+ 
+
+
+</header>
+
+<div class="devsBig">
+</div>
+
+
+<div class="footer-section">
+  <div class="item1">
+    <h3> JUST-OFF-PLAN.COM</h3>
+    <hr>
+    <p>Real Estate industry in Dubai is one the biggest in the world and it hasn’t reached its peak. One of the major concerns of investors is getting information about new projects and developers. just-off-plan.com will help you to get them. With a click; you stop searching and start discovering</p>
+    <p>Find All Latest Off Plan Projects in Dubai with just-off-plan</p>
+  </div>
+
+  <div class="item1">
+    <h3> COMPANY</h3>
+    <hr>
+    <a>About us</a> <br/>
+    <a>Contact us</a> <br/>
+    <a>Why just-off-plan?</a> <br/>
+    <a>Why we are different?</a><br/>
+    <a>Advertise on just-off-plan</a> <br/>
+  </div>
+
+  <div class="item1 mt-3">
+    <h3> MEET US ON</h3>
+    <hr>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-telegram"></i>
+    <i class="fab fa-youtube"></i>
+    
+  </div>
+  
+</div>
+
+<div class="container3">
+  
+  <div class="item3" data-aos="fade-in">
+  <img src="img/a1.jpeg" class="img-fluid">
+  <div class="center">D U B A I</div>
+  </div>
+  <div class="item3 " data-aos="fade-in">
+    <img src="img/a2.jpg" class="img-fluid">
+    <div class="center">A B U <br/> D H A B I</div>
+  </div>
+  <div class="item3 " data-aos="fade-in">
+    <img src="img/a3.png" class="img-fluid">
+    <div class="center">S H A R J A H</div>
+  </div>
+  <div class="item3" data-aos="fade-in">
+    <img src="img/a4.jpg" class="img-fluid">
+    <div class="center">A J M A N</div>
+  </div>
+
+    
+  <div class="item3" data-aos="fade-in">
+    <img src="img/a6.jpg" class="img-fluid">
+    <div class="center">R A S <br/> A L <br/> K H A I M A H</div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <div class="item4">
+    <h4> MADE WITH <i class="far fa-heart animated flash infinite slower" style="color:#67C3B5;"></i> IN DUBAI</h4>
+  </div>
+  <div class="item4">
+    <p>&copy; 2020 just-off-plan.com<p>
+  </div>
+
+  
+</div>
+
+
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="main1.js"></script>
+
+
+<script src="scrollFix.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
