@@ -857,12 +857,12 @@ hr {
 
 .devpImgContainer {
   width: 100%;
-  height: 150px;
+  height: 170px;
   position: relative;
 }
 
 .devpImg {
-  height: 150px;
+  height: 170px;
 }
 
 .centerDevp {
@@ -884,10 +884,94 @@ hr {
   color: white;
   opacity: 0.8;
   font-size: 15px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 
-.bottomDevp .bigger {
-  font-size: 30px;
+.bottomDevp .hrWhite {
+  padding: 0;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bottomDevp .crveno {
+  color: #67C3B5;
+  opacity: none !important;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.topRight {
+  position: absolute;
+  top: 22px;
+  right: 2px;
+  color: white;
+  opacity: 0.8;
+  background-color: red;
+  padding: 1px;
+  font-size: 12px;
+}
+
+.topRight1 {
+  position: absolute;
+  top: 44px;
+  right: 2px;
+  color: white;
+  opacity: 0.8;
+  background-color: red;
+  padding: 1px;
+  font-size: 12px;
+}
+
+.topRight2 {
+  position: absolute;
+  top: 66px;
+  right: 2px;
+  color: white;
+  opacity: 0.8;
+  background-color: red;
+  padding: 1px;
+  font-size: 12px;
+}
+
+.topRight3 {
+  position: absolute;
+  top: 88px;
+  right: 2px;
+  color: white;
+  opacity: 0.8;
+  background-color: red;
+  padding: 1px;
+  font-size: 12px;
+}
+
+.phoneWap {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 5px;
+}
+
+.phoneWap .fas, .phoneWap .fab {
+  font-size: 35px;
+}
+
+.phoneWap .fas {
+  color: white;
+  opacity: 0.8;
+}
+
+.phoneWap .fab {
+  color: #25d366;
 }
 
 .tableDiv {
@@ -1087,6 +1171,7 @@ table tr.active {
   left: 5px;
   color: white;
   opacity: 0.8;
+  font-size: 10px;
 }
 
 .nextPage {
