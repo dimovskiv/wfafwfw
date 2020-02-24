@@ -1315,5 +1315,50 @@ table tr.active { display: table-row; }
       padding:7px;
     }
   }
+
+  .aboutItemIc {
+    display:flex;
+    flex-direction:row;
+
+    
+  }
 }
 
+.iconItem {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+  .fas, .far {
+    color: $misc-color;
+    font-size:30px;
+  }
+}
+
+.aboutItemTable {
+
+  td {
+    padding:7px;
+    font-size:13px;
+    border-bottom:1px solid $misc-color;
+  }
+
+  tr {
+    font-size:15px;
+    padding:7px;
+  }
+
+  table {
+    text-align: left;
+    font-size:22px;
+  }
+
+
+}
+
+.btn-form {
+  background-color:$misc-color;
+  border:none;
+  color:white;
+  font-weight: 900;
+}

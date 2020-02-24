@@ -1323,4 +1323,55 @@ table tr.active {
   font-size: 15px;
   padding: 7px;
 }
+
+.aboutItem .aboutItemIc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.iconItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.iconItem .fas, .iconItem .far {
+  color: #67C3B5;
+  font-size: 30px;
+}
+
+.aboutItemTable td {
+  padding: 7px;
+  font-size: 13px;
+  border-bottom: 1px solid #67C3B5;
+}
+
+.aboutItemTable tr {
+  font-size: 15px;
+  padding: 7px;
+}
+
+.aboutItemTable table {
+  text-align: left;
+  font-size: 22px;
+}
+
+.btn-form {
+  background-color: #67C3B5;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
 /*# sourceMappingURL=style.css.map */
