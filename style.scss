@@ -955,6 +955,37 @@ opacity: 1;
   }
 }
 
+.modal {
+  text-align:center;
+}
+
+.modal-content {
+  display:flex;
+  flex-direction:column;
+
+  text-align: center;
+  justify-content: center;
+  padding:15px;
+
+  .img-fluid {
+    width:200px;
+    height:200px;
+    text-align: center;
+  
+  }
+
+}
+
+.modalitem1 {
+  p {
+    font-size:22px;
+    font-weight: bolder;
+    
+  }
+  
+}
+
+
 
 .tableDiv {
   color:white;
@@ -1242,3 +1273,47 @@ table tr.active { display: table-row; }
   }
   width:100%;
 }
+
+.mastheadProject {
+     
+  padding-top:9.5rem;
+  position: relative;
+  text-align: center;
+  color: white;
+
+  .imgDevs {
+    height:300px;
+    opacity:1;
+  }
+}
+
+.overview {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:2px;
+
+}
+
+.aboutItem {
+  img {
+    opacity:1;
+  }
+
+  table {
+    text-align:center;
+    padding:10px;
+
+    td {
+      padding:7px;
+      font-size:13px;
+      border-bottom:1px solid $misc-color;
+    }
+
+    tr {
+      font-size:15px;
+      padding:7px;
+    }
+  }
+}
+
