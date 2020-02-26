@@ -1164,6 +1164,8 @@ table tr.active { display: table-row; }
     padding-left:20px;
     padding-right:20px;
 
+   
+
     .pItem {
       color:white;
       opacity:0.8;
@@ -1231,6 +1233,8 @@ table tr.active { display: table-row; }
     color:$primary-color;
     padding:5px;
   }
+
+
 
   .load_more {
     width:130px;
@@ -1361,4 +1365,35 @@ table tr.active { display: table-row; }
   border:none;
   color:white;
   font-weight: 900;
+}
+
+#showMore {
+  display:none;
+
+}
+
+#rmButton {
+  padding:7px;
+  color:whitesmoke;
+  background:$misc-color;
+  border:none;
+}
+
+
+.containers {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.items {
+  
+  height:175px;
+
+  margin:15px;
+  
+    position: relative;
+    text-align: center;
+    color: white;
+  
 }
