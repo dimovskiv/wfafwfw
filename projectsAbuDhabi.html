@@ -1,307 +1,529 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  
-    <title>Just-off-plan</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   
-
+<head>
+	<title>Just-off-plan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg  ">
+
+
+  <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
-    <a class="navbar-brand" style="opacity:1;" href="blog.html"><img src="./logo/1.png" class="logoNav"></a>
-    <button id="changeToogle" class="navbar-toggler collapsed mr-4" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-chevron-right fa-2x" ></i>
-    </button>
-  
-    <div class="collapse navbar-collapse "  id="navbarTogglerDemo02">
-      <ul class="navbar-nav  mt-2 mt-lg-0 ml-auto" >
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="blog.html">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="allProjects.html">ALL PROJECTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link dropdown" href="developers.html">DEVELOPERS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="developments.html">DEVELOPMENTS</a>
-        </li>
-      </ul>
-
+        <a class="navbar-brand" style="opacity:1;" href="blog.html">
+            <img src="./logo/1.png" class="logoNav">
+        </a>
+        <button id="changeToogle" class="navbar-toggler collapsed mr-4" type="button" data-toggle="collapse"
+data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+aria-label="Toggle navigation">
+<i class="fas fa-chevron-right fa-2x"></i>
+</button>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+<a class="nav-link" href="blog.html">BLOG</a>
+</li>
+                <li class="nav-item">
+<a class="nav-link" href="allProjects.html">ALL PROJECTS</a>
+</li>
+                <li class="nav-item">
+<a class="nav-link dropdown" href="developers.html">DEVELOPERS</a>
+</li>
+                <li class="nav-item">
+<a class="nav-link" href="developments.html">DEVELOPMENTS</a>
+</li>
+            </ul>
+        </div>
     </div>
-    </div>
-  </nav>
-
- 
-<header class="mastheadDevpD1">
-
-<div class="text-left">
-    <h3>Projects in Abu Dhabi</h3>
-    <hr>
-</div>
-
-<form class="form-inline md-form form-sm mt-2 mb-3" style="width:130px;">
-  <input class="form-control form-control-sm mr-3 w-75" style="border:3px solid #67C3B5;"type="text" placeholder="Search"
-    aria-label="Search">
-  <i class="fas fa-search" aria-hidden="true"></i>
-</form>
-
-
-  <a href="#" class="load_more mb-3">Load Projects</a>
-    <table>
-      
-        <tr>
-          <th>DEVELOPMENTS</th>
-          <th>MIN PRICE</th>
-          <th>PROJECTS</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
-        </tr>
-        <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
-          </tr>
-  
-          <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
-          </tr>
-  
-
-      </table>
-
-      <div class="itemDubai text-left mt-5">
-        <h4>Property for sale in Abu Dhabi</h4>
-        <hr>
-      </div>
-
-      <div class="itemDubai text-left">
-        <div class="pLink">
-          <a href="#">APARTMENTS ABU DHABI (404)</a>
-      </div>
-      <div class="pLink mt-1">
-          <a href="#">VILAS ABU DHABI (126)</a>
-      </div>
-      <div class="pLink mt-1">
-          <a href="#">TOWNHOUSES ABU DHABI (61)</a>
-      </div>
-      <div class="pLink mt-1">
-          <a href="#">HOTEL APARTMENTS ABU DHABI (28)</a>
-      </div>
-      <div class="pLink mt-1">
-          <a href="#">LAND ABU DHABI (27)</a>
-      </div>
-      <div class="pLink mt-1 mb-3">
-          <a href="#">OFFICES ABU DHABI (5)</a>
-      </div>
-      </div>
-</div>
+</nav>
 
 
 
 
-</header>
+
+        <div class="choose">
+          <div class="csc">
 
 
+          <div class="mb-4">
+            <h1>Property for sale in Abu Dhabi</h1>
+          </div>
+          
+         
 
-    
-
-<div class="containerPD">
-  
-
-    <div class="devpImgContainer mt-2" onclick="window.location.href = 'index.html';">
-      
-        <img src="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2016/11/Business-Bay-Development-344x225.jpg" class="img-fluid devpImg">
-        <div class="centerDevp">BUSINESS BAY <BR/> FROM $0</div>
-        <div class="bottomDevp"><span class="bigger">23 </span> Projects</div>
-    </div>
-
-
-</div>
-
-<div class="aboutD">
-   <div class="aboutItem">
-   <h3> Find the Best Property For Sale in Abu Dhabi</h3>
-    <hr>
-   </div>
-   <div class="aboutItem">
-     <p>Buying off plan property is considered as one of best investments in UAE. This is because buyers can purchase properties with flexible payment plans and huge price difference compared to ready projects. Consequently, a lot of buyers are now buying  <a href="https://dxboffplan.com/property-for-sale-abu-dhabi/">off plan property for sale in Abu Dhabi</a> , Dubai and other emirates. It is important to note, however, that before you make an off plan property investment, there are some factors that you must consider before proceeding with the investment.</p>
-   </div>
-   <div class="aboutItem mb-3">
-     <img src="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2019/08/Property-for-sale-in-Abu-Dhabi2.jpg" class="img-fluid">
-   </div>
-   <div class="aboutItem">
-    <h3> Reasons to buy off plan property in Abu Dhabi</h3>
-     <hr>
-    </div>
-    <div class="aboutItem">
-      <p>There are a number of reasons why you should consider buying off plan property for sale in Abu Dhabi. The emirate has a plethora of properties that meet the growing demand of residents for quality yet affordable residences. Being the capital city and the largest emirate in UAE, the market for local properties have seen a steady and consistent growth and has a lot of potential for expansion.</p>
-      </div>
-     
-        <div class="aboutItem">
-          <img scr="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2019/08/Property-for-sale-in-Abu-Dhabi3.jpg" class="img-fluid">
+        
+          <div>
+            
+        </div>
           </div>
 
-          <div class="aboutItem">
-            <p>Investing in off plan property for sale in Abu Dhabi would be an excellent choice most especially for families, as the master developments in the area have been designed to provide the perfect environment with its abundance of green spaces and parks. Aside from that, the different islands along the coast of the emirate features unique views of the ocean.</p>
-            </div>
-</div>
+          <div class="sk">
 
+       
 
-  
-
-
-
-<div class="footer-section">
-  <div class="item1">
-    <h3> JUST-OFF-PLAN.COM</h3>
-    <hr>
-    <p>Real Estate industry in Dubai is one the biggest in the world and it hasn’t reached its peak. One of the major concerns of investors is getting information about new projects and developers. just-off-plan.com will help you to get them. With a click; you stop searching and start discovering</p>
-    <p>Find All Latest Off Plan Projects in Dubai with just-off-plan</p>
-  </div>
-
-  <div class="item1">
-    <h3> COMPANY</h3>
-    <hr>
-    <a>About us</a> <br/>
-    <a>Contact us</a> <br/>
-    <a>Why just-off-plan?</a> <br/>
-    <a>Why we are different?</a><br/>
-    <a>Advertise on just-off-plan</a> <br/>
-  </div>
-
-  <div class="item1 mt-3">
-    <h3> MEET US ON</h3>
-    <hr>
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-telegram"></i>
-    <i class="fab fa-youtube"></i>
+        <div class="devpImgContainer" >
+          <img src="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2019/01/Bermuda-Villas-at-Mina-Al-Arab-in-Ras-Al-Khaimah-562x347.jpg"
+              alt="Golf Place II Villas"
+              onclick="window.location.href ='projectDubai6.html'"
+              class="img-fluid">
+              <div class="centered">APARTMENTS (3)</div> 
+        </div>
     
-  </div>
-  
-</div>
-
-<div class="container3">
-  
-  <div class="item3" data-aos="fade-in">
-  <img src="img/a1.jpeg" class="img-fluid">
-  <div class="center">D U B A I</div>
-  </div>
-  <div class="item3 " data-aos="fade-in">
-    <img src="img/a2.jpg" class="img-fluid">
-    <div class="center">A B U <br/> D H A B I</div>
-  </div>
-  <div class="item3 " data-aos="fade-in">
-    <img src="img/a3.png" class="img-fluid">
-    <div class="center">S H A R J A H</div>
-  </div>
-  <div class="item3" data-aos="fade-in">
-    <img src="img/a4.jpg" class="img-fluid">
-    <div class="center">A J M A N</div>
-  </div>
-
+        <div class="devpImgContainer">
+          <img src="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2018/06/Bayti-Residences-Swimming-Pool-562x347.jpg"
+              alt="Golf Place II Villas"
+              onclick="window.location.href ='projectDubai6.html'"
+              class="img-fluid">
+              <div class="centered">VILLAS (1)</div> 
+        </div>
     
-  <div class="item3" data-aos="fade-in">
-    <img src="img/a6.jpg" class="img-fluid">
-    <div class="center">R A S <br/> A L <br/> K H A I M A H</div>
+        <div class="devpImgContainer ">
+          <img src="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2018/06/Royal-Breeze-Residences-562x347.jpg "
+              alt="Golf Place II Villas"
+              onclick="window.location.href ='projectDubai6.html'"
+              class="img-fluid">
+              <div class="centered">TOWNHOUSES (1)</div> 
+        </div>
+        
+        <div class="devpImgContainer ">
+          <img src="https://a4t9y6p5.stackpathcdn.com/wp-content/uploads/2018/06/Royal-Breeze-Residences-562x347.jpg "
+              alt="Golf Place II Villas"
+              onclick="window.location.href ='projectDubai6.html'"
+              class="img-fluid">
+              <div class="centered">LAND</div> 
+        </div>
+      </div>
+      </div>
+    
+
+
+
+  <div class="containerPD">
+  
+
+    <div class="devpImgContainer text-left text-left">
+        
+      <img src="https://dxboffplan.com/wp-content/uploads/2020/03/Reflection-Apartments-27.jpg" onclick="window.location.href ='projectsAbu1.html'" class="img-fluid devpImg">
+  
+      <div class="leftProjects">20/80 Payment plan</div>
+      <div class="bottomDevp">REFLECTION APARTMENTS <br/>  Al Reem Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 898,000 </span></div>
+   
+      <div class="phoneWap">
+        <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg"></i>
+        <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=971509240394';"></i>
+      </div>
+  </div>
+  
+  
+  <div class="devpImgContainer text-left text-left mt-2">
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/Pixel-Towers-At-Makers-District.jpg" onclick="window.location.href ='projectsAbu2.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">Offers Easy Plans Option with Post Handover</div>
+    <div class="bottomDevp">PIXEL TOWERS <br/>  Pixel <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 713,777 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=971509240394';" ></i>
+    </div>
+  </div>
+  
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/The-Dunes-Villas-In-Nudra-Saadiyat-Exterior.jpg"  onclick="window.location.href ='projectsAbu3.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">Offers Easy Plans Option with Post Handover</div>
+    <div class="bottomDevp">THE DUNES VILLAS <br/> Nudra <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 9,170,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg1"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493637';"></i>
+    </div>
   </div>
 
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="  https://dxboffplan.com/wp-content/uploads/2019/10/Budoor-Villas-Master-Plan.png "  onclick="window.location.href ='projectsAbu4.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">Offers Easy Plans Option with Post Handover</div>
+    <div class="bottomDevp">AL JURF VILLAS PLOTS <br/> Nudra <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 1,689,777 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg1"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493637';"></i>
+    </div>
+  </div>
+
+
+  
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/The-Beach-Villas-In-Nudra-Saadiyat.png " onclick="window.location.href ='projectsAbu5.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">Offers Attractive Payment Plan Options</div>
+    <div class="bottomDevp">THE BEACH VILLAS <br/> Nudra <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 14,970,000</span></div>
+   
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg1"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493637';"></i>
+    </div>
+  </div>
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/The-Shores-Villas-in-Nudra-Saadiyat.png " onclick="window.location.href ='projectsAbu6.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">THE SHORES VILLAS <br/> Nudra<br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> ASK FOR PRICE </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+  
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/Rabia-Villas-At-Al-Jurf.png " onclick="window.location.href ='projectsAbu7.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">RABIA VILLAS <br/>  Al Jurf <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 8,720,777 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/Joud-Villas-At-Al-Jurf.png" onclick="window.location.href ='projectsAbu8.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">JOUD VILLAS <br/>  Al Jurf <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 3,658,777 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/10/Budoor-Villas-At-Al-Jurf.png " onclick="window.location.href ='projectsAbu9.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">BUDOOR VILLAS <br/>  Al Jurf <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 2,770,777 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2019/09/Saadiyat-Reserve-Plot-Villas.jpg" onclick="window.location.href ='projectsAbu10.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">SAADIYAT RESERVE PLOTS<br/> Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> ASK FOR PRICE </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2018/09/The-Cedars-Villas-in-Yas-Acres.jpg" onclick="window.location.href ='projectsAbu11.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">THE CEDARS VILLAS IN YAS ACRES <br/>  Yas Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 3,490,240 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2018/09/The-Cedars-Townhouses-in-Yas-Acres.jpg " onclick="window.location.href ='projectsAbu12.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">THE CEDARS TOWNHOUSES <br/>  Yas Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 3,189,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2018/06/Nurai-Island-Resort-Villas-Swimming-Pool.jpg" onclick="window.location.href ='projectsAbu13.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">Direct beach access</div>
+    <div class="bottomDevp">NURAI ISLAND RESORT VILLAS <br/>  Nurai Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 12,100,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2018/04/The-District-200.jpg " onclick="window.location.href ='projectsAbu14.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">DISTRICT 200 <br/>  Wahat Al Zaweya <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 289,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/waters-edge-by-aldar-properties.jpg" onclick="window.location.href ='projectsAbu15.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">WATER'S EDGE <br/>  Al Marjan Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 1,191,710</span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/The-Bridges-Apartments-Location.jpg" onclick="window.location.href ='projectsAbu16.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">THE BRIDGES APARTMENTS <br/>  Al Reem Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 1,622,464</span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Saadiyat-Lagoon-Townhouses.jpg " onclick="window.location.href ='projectsAbu17.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">SAADIYAT LAGOONS DISTRICT TOWNHOUSES <br/>  Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 2,600,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Mamsha-Townhouses.jpg" onclick="window.location.href ='projectsAbu18.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">MAMSHA AL SAADIYAT TOWNHOUSES <br/>  Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 3,950,136 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Mamsha-Al-Saadiyat-by-TDIC.jpg" onclick="window.location.href ='projectsAbu19.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">MAMSHA AL SAADIYAT APARTMENTS <br/>  Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 2,271,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Jawaher-Saadiyat-Villa.jpg" onclick="window.location.href ='projectsAbu20.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">JAWAHER SAADIYAT VILLAS<br/>  Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 13,050,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Jawaher-Al-Saadiyat-Townhouse.jpg" onclick="window.location.href ='projectsAbu21.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">JAWAHER SAADIYAT TOWNHOUSES<br/>  Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 2,271,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Bloom-Park-View-Residences-Hotel-Apartments.jpg" onclick="window.location.href ='projectsAbu22.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">PARK VIEW HOTEL APARTMENTS <br/> Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 1,498,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Bloom-Park-view.jpg" onclick="window.location.href ='projectsAbu23.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">PARK VIEW RESIDENCES APARTMENTS <br/> Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 972,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Bloom-Gardens-Phase-3.jpg" onclick="window.location.href ='projectsAbu24.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">BLOOM GARDENS PHASE 3 <br/>  Eastern Mangrove <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 3,612,000</span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+
+  <div class="devpImgContainer text-left mt-2" >
+        
+    <img src="https://dxboffplan.com/wp-content/uploads/2017/11/Soho-Square-Apartments.jpg " onclick="window.location.href ='projectsAbu25.html'" class="img-fluid devpImg">
+  
+    <div class="leftProjects">24% ROI Guaranteed in Contract During 3 Years</div>
+    <div class="bottomDevp">SOHO SQUARE APARTMENTS <br/>  Saadiyat Island <br/><hr class="hrWhite"> STARTING PRICE: <span class="crveno"> AED 1,204,000 </span></div>
+  
+    <div class="phoneWap">
+      <i class="fas fa-phone mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2"></i>
+      <i class="fab fa-whatsapp" onclick="window.location.href = 'https://api.whatsapp.com/send?phone=97142493628';"></i>
+    </div>
+  </div>
+  
+  </div>
+
+
+<div class="aboutD">
+	<div class="aboutItem">
+		<h3 >
+			Find the Best Property For Sale in Ras al Khaiman
+		</h3>
+		<hr>
+	</div>
+	<div class="aboutItem"><p>Not as mainstream as the bigger Emirates in the region like Dubai and Abu Dhabi, , Ras Al Khaimah is still in no way a less apt or appropriate off- plan property development entity to invest in. The Emirate of Ras al Khaiman  is certainly smaller but is a hot spot in terms of residential property investment. With huge spacious roads and a luscious green topography, it is the ultimate Eden out of all the other metropolitan Emirates in the country.  </p>
+		
+	</div>
+	
 </div>
 
-<div class="footer">
-  <div class="item4">
-    <h4> MADE WITH <i class="far fa-heart animated flash infinite slower" style="color:#67C3B5;"></i> IN DUBAI</h4>
-  </div>
-  <div class="item4">
-    <p>&copy; 2020 just-off-plan.com<p>
+
+<div class="footer mt-5">
+	<div class="item4">
+	  <h4> MADE WITH <i class="far fa-heart animated flash infinite slower" style="color:#67C3B5;"></i> IN DUBAI</h4>
+	</div>
+	<div class="item4 mt-3 mb-3">
+	  <i class="fab fa-2x fa-facebook mx-2"></i>
+	  <i class="fab fa-2x fa-twitter mx-2"></i>
+	  <i class="fab fa-2x fa-instagram mx-2"></i>
+	  <i class="fab fa-2x fa-telegram mx-2"></i>
+	  <i class="fab fa-2x fa-youtube mx-2"></i>
+	</div>
+	<div class="item4">
+	  <p>&copy; 2020 just-off-plan.com<p>
+	</div>
+  
+	
   </div>
 
   
-</div>
-
-
-
-
-
-
-<script src="js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="main1.js"></script>
-
-
-<script>
-  function function1() {
-    alert("Our number is:")
-  }
-</script>
-
-<script>
-    $('table tr:first').addClass('active');
-    $('a.load_more').on('click', function(e) {
-  e.preventDefault();  
-  var $rows = $('table tr');
-  var lastActiveIndex = $rows.filter('.active:last').index();
-  $rows.filter(':lt(' + (lastActiveIndex + 3) + ')').addClass('active');
-});
-</script>
-
-
-
-
+<div class="back"  onclick="window.location.href = 'allProjects.html';">
+	<i class="fas fa-2x fa-long-arrow-alt-left"></i>
+  </div>
+  
+  <div class="modal fade" id="modalAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+         <h4>Send us your details and our agent will contact you soon!</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3">
+          <form class="contact-form" action="mailto:aa@h2t.ae" method="post" enctype="text/plain">
+            <input style="background:transparent;  color:#373739 ; border:none; border-bottom:1px solid #373739 ;"id="name" placeholder="Email *" class="form-control ">
+        
+              <input  style="background:transparent; color:#373739 ;; border:none; border-bottom:1px solid #373739 ;" id="number1" placeholder="Name *" class="form-control mt-4">
+                       <input style="background:transparent; color:#373739 ; border:none; border-bottom:1px solid #373739 ;" id="number" placeholder="Number *" class="form-control mt-4">
+                      
+                       
+            </form>
+  
+        </div>
+		<div class="modal-footer text-center">
+          <input type="button" onclick="sendEmail()" value="Send An Email" class="btn nobor mt-3" >
+          <div class="alertt mt-4">
+          <p>Please fill the fields strictly in case of real-estate inquiries. Kindly do NOT fill the fiven space for any other queries whatsoever. </p>
+          <p>Thank you!</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
 <script src="scrollFix.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/popper.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
 </body>
 </html>
